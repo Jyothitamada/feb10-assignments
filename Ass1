@@ -1,0 +1,25 @@
+studentno= int(input("enter studentno:"))
+studentname=input("enter studentname:")
+studentgroup=input("enter studentgroup:")
+s1=int(input("maths marks:"))
+s2= int(input("physics marks:"))
+s3=int(input("computers marks:"))
+s4=int(input("telugu marks:"))
+s5=int(input("english marks:"))
+s6=int(input("online business:"))
+if s1>=60 and s2>=60 and s3>=60 and s4>=60 and s5>=60 and s6>=60:
+    print("pass")
+else:
+    print("fail")
+
+Output
+Enter studno 1
+Enter studname jyothi
+Enter studgroup Mpcs
+Enter maths marks 50
+Enter physics marks 40
+Enter computer marks 44
+Enter telugu marks 45
+Enter english marks 48
+Enter online business 50
+Pass
